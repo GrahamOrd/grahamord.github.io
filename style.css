@@ -1,0 +1,134 @@
+@@ -0,0 +1,133 @@
+@media(max-width: 479px) {
+  .col-xxs-12 {
+    width: 100%;
+  }
+
+  .hidden-xxs {
+    display: none !important;
+  }
+
+  .glyphicon-envelope {
+    font-size: 50px;
+  }
+}
+
+.close {
+  color: #222;
+  opacity: 1;
+  font-weight: 400;
+}
+
+hr {
+  border-color: #DDD;
+}
+
+.btn-brand {
+  color: #1D0F33;
+  border: 1px solid #1D0F33;
+}
+
+.btn-brand:hover {
+  color: #1D0F33;
+  background-color: #EEE;
+}
+
+* {
+  font-family: 'Merriweather', serif;
+}
+
+body {
+  padding-top: 50px;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: #222;
+  padding: 10px;
+}
+
+.navigation ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navigation a {
+  color: #9d9d9d;
+}
+
+.intro-text h1 {
+  margin: 20px 0;
+}
+
+.intro-text p {
+  font-size: 20px;
+}
+
+.modal-dialog {
+  max-width: 800px;
+  width: auto;
+}
+
+.intro-text {
+  margin: 30px 0;
+}
+
+.intro-text img.logo {
+  margin-bottom: 30px;
+}
+
+.portfolio-area {
+  margin-bottom: 30px;
+}
+
+.portfolio-area .description {
+  padding: 15px 0;
+}
+
+.about-area {
+  margin: 40px 20px;
+}
+
+.contact-area {
+  background-color: #1D0F33;
+  padding: 40px 20px;
+}
+
+.contact-area h2 {
+  font-size: 40px;
+  margin-top: 0;
+  color: #FFF;
+ }
+
+.contact-area p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.contact-area a {
+  color: #FFF;
+}
+
+.contact-area a:hover,
+.contact-area a:focus,
+.contact-area a:active {
+  text-decoration: none;
+}
