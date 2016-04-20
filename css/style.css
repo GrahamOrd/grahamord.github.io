@@ -6,20 +6,12 @@
   .hidden-xxs {
     display: none !important;
   }
-
-  .glyphicon-envelope {
-    font-size: 50px;
-  }
 }
 
 .close {
   color: #222;
   opacity: 1;
   font-weight: 400;
-}
-
-hr {
-  border-color: #DDD;
 }
 
 .btn-brand {
@@ -54,6 +46,13 @@ a:active {
   text-decoration: none;
 }
 
+@media(min-width: 768px) {
+.set-height {
+  width: auto;
+  height: 554px;
+}
+}
+
 .navigation {
   background-color: #222;
   padding: 10px;
@@ -73,12 +72,12 @@ a:active {
   color: #9d9d9d;
 }
 
-.intro-text h1 {
-  margin: 20px 0;
+.intro-text h2 {
+  margin: 0 0 20px 0;
 }
 
 .intro-text p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .modal-dialog {
@@ -94,12 +93,50 @@ a:active {
   margin-bottom: 30px;
 }
 
+.portfolio-wrapper {
+  background-color: #EEE;
+  padding: 20px 0;
+  border-top: 1px solid #DDD;
+}
+
 .portfolio-area {
   margin-bottom: 30px;
 }
 
-.portfolio-area .description {
-  padding: 15px 0;
+.portfolio-area .container {
+  max-width: 960px;
+  border: 1px solid #DDD;
+  background-color: #FFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.portfolio-area h2 {
+  margin-top: 0;
+}
+
+.portfolio-area a {
+  position: relative;
+  display: block;
+}
+
+.portfolio-area .fa-search-plus {
+  font-size: 20px;
+  color: #FFF;
+  padding: 5px;
+  background-color: #3f206e;
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+}
+
+.portfolio-area img {
+  padding: 5px;
+  border: 1px solid #CCC;
+}
+
+.portfolio-area p {
+  margin: 15px 0 0 0;
 }
 
 .about-area {
@@ -119,7 +156,7 @@ a:active {
 
 .contact-area p {
   font-size: 20px;
-  margin-bottom: 0;
+  color: #FFF;
 }
 
 .contact-area a {
